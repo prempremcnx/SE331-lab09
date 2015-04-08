@@ -16,5 +16,7 @@ public interface ProductDao {
     Product deleteProduct(Product product);
     Product updateProduct(Product product);
 
+    List<Product> getProductsByName(String name);
+
 
 }
